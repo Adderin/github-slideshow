@@ -4,6 +4,7 @@ import { Dat } from "https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gu
 import { Math } from "https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.1/math.min.js"
 import { OrbitControls } from "https://raw.githubusercontent.com/Adderin/github-slideshow/master/OrbitControls.js"
 
+class methane {
   // set the scene size
   var WIDTH = 600, HEIGHT = 600;
   // set some camera attributes
@@ -212,3 +213,4 @@ import { OrbitControls } from "https://raw.githubusercontent.com/Adderin/github-
   }
   // calling the animate function to start the animation
   animate();
+}
